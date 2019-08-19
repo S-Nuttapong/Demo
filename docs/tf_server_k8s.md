@@ -26,8 +26,8 @@ Simply replace the previously used ``localhost`` in the url with the `IP` addres
 ````bash
 # From Traffy_Demo/
 python client.py --server_url "http://localhost:8501/v1/models/faster_rcnn_road:predict" \
---image_path "$(pwd)/Test/Images/pit20.jpg" \
---output_json "$(pwd)/Test_Result/pit20.json" \
+--image_path "$(pwd)/Test/road/pit29.jpg" \
+--output_json "$(pwd)/Test_Result/pit29.json" \
 --save_output_image "True" \
 --label_map "$(pwd)/data/faster_rcnn_road/label_map.pbtxt"
 ````
