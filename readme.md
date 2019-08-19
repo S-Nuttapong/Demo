@@ -5,7 +5,7 @@
 ## Installation
 
 The installation process is thoroughly described in the [docs/setup.md](docs/setup.md). 
-In prior being able to serve a model with tensorflow-serving.
+In prior being able to serve a `Traffy Demo` with tensorflow-serving.
 
 ## Serving traffy_demo with tensorflow/serving image
 
