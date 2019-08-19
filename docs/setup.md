@@ -49,9 +49,9 @@ protoc object_detection/protos/*.proto --python_out=.
 
 ### Serving traffy_demo with tensorflow/serving image on local host
 
-follow: [tf_server_local.md](../doc/tf_server_local.md).
+follow: [tf_server_local.md](tf_server_local.md).
 
 ### Serving with kubenetes (pulled from traffy_demo container from Google Cloud's registry)
 
-follow: [tf_server_k8s.md](../doc/tf_server_k8s.md).
+follow: [tf_server_k8s.md](tf_server_k8s.md).
 
