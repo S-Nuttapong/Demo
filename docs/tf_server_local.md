@@ -3,6 +3,11 @@
 Finalize your setup by running your first tensorflow-server on local.
 You will be able to make object detection over `jpeg` images in a few minutes!
 
+## First, get TensorFlow-serving image
+Run: `docker pull tensorflow/serving`
+
+Then do the following:
+
 1. Run the tensorflow server container
 ```bash
 # From Traffy_Demo/
@@ -13,7 +18,6 @@ docker run -t --rm -p 8501:8501 \
 ```
 
 2. Run client.py
-
 ```bash
 # Don't forget to activate your python3.6.5 venv
 
