@@ -23,7 +23,33 @@ source ~/virpython/tf_serving/bin/activate
 ```
 
 ## Install all dependencies
-Install the python packages required for the project. Run the following at the root of the project directory:
+
+### Clone This Repository 
+
+### Download demo model and put inside data folder
+Model can be found here: https://drive.google.com/open?id=1BjW7LQ-2KC-74anW0u5iJu8mXEys0w7U
+put model inside data folder as shown below:
+```
+Traffy_Demo/
+ |
+ |--data/
+ |     |
+ |     |--faster_rcnn_road/
+ |             |
+ |             |-label_map.pbtxt
+ |             |
+ |             |--00001/
+ |                |
+ |                |-saved_model.pb 
+ |                |
+ |                |-variables/
+ |             
+ |     
+ |
+ |--docs/
+ |
+```
+### Install the python packages required for the project. Run the following at the root of the project directory:
 ```
 cd /PATH/TO/Traffy_Demo
 
