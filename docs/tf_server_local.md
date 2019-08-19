@@ -1,4 +1,4 @@
-# Create a local tensorflow server and call it for inference
+# Serving traffy_demo with tensorflow/serving image on localhost
 
 Finalize your setup by running your first tensorflow-server on local.
 You will be able to make object detection over `jpeg` images in a few minutes!
