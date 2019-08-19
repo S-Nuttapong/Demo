@@ -1,6 +1,6 @@
 # Traffy_Demo
 
-### serving object detection model for sanitation and public infrastructure with `tensorflow-serving`
+### serving object detection model for public sanitation and infrastructure problems with `tensorflow-serving`
 
 ## Installation
 
