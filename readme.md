@@ -11,7 +11,7 @@ In prior being able to run `client.py`, TensorFlow-serving client.
 
 follow: [docs/tf_server_local.md](docs/tf_server_local.md).
 
-## Serving with kubenetes (pulled from traffy_demo container from Google Cloud's registry)
+## Serving with Kubenetes (pulled from traffy_demo container from Google Cloud's registry)
 
 follow: [docs/tf_server_k8s.md](docs/tf_server_k8s.md).
 
