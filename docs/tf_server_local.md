@@ -8,7 +8,7 @@ Run: `docker pull tensorflow/serving`
 
 Then do the following:
 
-1. Run the tensorflow server container
+1. Run the tensorflow server container:
 ```bash
 # From Traffy_Demo/
 docker run -t --rm -p 8501:8501 \
@@ -17,7 +17,7 @@ docker run -t --rm -p 8501:8501 \
    tensorflow/serving &
 ```
 
-2. Run client.py
+2. Run client.py, tensorflow-serving client: 
 ```bash
 # Don't forget to activate your python3.6.5 venv
 
@@ -26,7 +26,7 @@ python client.py --server_url "http://localhost:8501/v1/models/faster_rcnn_road:
 --image_path "$(pwd)/Test/Images/pit20.jpg" \
 --output_json "$(pwd)/Test_Result/pit20.json" \
 --save_output_image "True" \
---label_map "$(pwd)/data/faster_rcnn_road/labels.pbtxt"
+--label_map "$(pwd)/data/faster_rcnn_road/label_map.pbtxt"
 ```
 Note: other images can be find at `Traffy_Demo/Test/Images/`
 
