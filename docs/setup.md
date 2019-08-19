@@ -47,7 +47,7 @@ protoc object_detection/protos/*.proto --python_out=.
 ```
 ## Next
 
-### Serving traffy_demo with tensorflow/serving image on localhost
+### Serving traffy_demo with tensorflow/serving image on local host
 
 follow: [docs/tf_server_local.md](docs/tf_server_local.md).
 
