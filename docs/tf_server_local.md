@@ -23,8 +23,8 @@ docker run -t --rm -p 8501:8501 \
 
 # From Traffy_Demo/
 python client.py --server_url "http://localhost:8501/v1/models/faster_rcnn_road:predict" \
---image_path "$(pwd)/Test/Images/pit20.jpg" \
---output_json "$(pwd)/Test_Result/pit20.json" \
+--image_path "$(pwd)/Test/Images/pit29.jpg" \
+--output_json "$(pwd)/Test_Result/pit29.json" \
 --save_output_image "True" \
 --label_map "$(pwd)/data/faster_rcnn_road/label_map.pbtxt"
 ```
@@ -32,4 +32,4 @@ Note: other images can be find at `Traffy_Demo/Test/Images/`
 
 If everything works fine you should have an image generated under `object_detection/test_images/pit20.jpeg`.
 With the provided model and example it should look like:
-![Output image based on the inference results from the model](../assets/out_image1.jpeg) 
+![Output image based on the inference results from the model](../assets/pit29.jpeg) 
