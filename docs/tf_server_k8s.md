@@ -24,12 +24,12 @@ And finally, let's test this. We can use the same [client code](../client.py).
 Simply replace the previously used ``localhost`` in the url with the `IP` address of the LoadBalancer.
 
 ````bash
-# From tensorflow-serving_sidecar/
-python client.py --server_url "http://34.73.137.228:8501/v1/models/faster_rcnn_resnet:predict" \
---image_path "$(pwd)/object_detection/test_images/image1.jpg" \
---output_json "$(pwd)/object_detection/test_images/out_image3.json" \
+# From Traffy_Demo/
+python client.py --server_url "http://localhost:8501/v1/models/faster_rcnn_road:predict" \
+--image_path "$(pwd)/Test/Images/pit20.jpg" \
+--output_json "$(pwd)/Test_Result/pit20.json" \
 --save_output_image "True" \
---label_map "$(pwd)/data/labels.pbtxt"
+--label_map "$(pwd)/data/faster_rcnn_road/label_map.pbtxt"
 ````
 ________
 ### Resources 
