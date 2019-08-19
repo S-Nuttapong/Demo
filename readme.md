@@ -23,3 +23,4 @@ It offers useful `utils` functions to tag the image returned from the model.
 
 Tutorial: https://towardsdatascience.com/deploy-your-machine-learning-models-with-tensorflow-serving-and-kubernetes-9d9e78e569db
 
+Original Repository: https://github.com/fpaupier/tensorflow-serving_sidecar
