@@ -5,7 +5,7 @@
 ## Installation
 
 The installation process is thoroughly described in the [docs/setup.md](docs/setup.md). 
-In prior being able to run `client.py`, TensorFlow-serving client.
+In prior to being able to run `client.py`, TensorFlow-serving client.
 
 ## Serving traffy_demo with tensorflow/serving image on localhost
 
