@@ -14,7 +14,7 @@ to monitor each replicas of your deployment and `kubectl get services` for the s
 It can take a while for everything to be up and running. The service external `IP` address is listed next to LoadBalancer Ingress.
 You can check it with the ``kubectl describe service`` command:
 ````bash
-kubectl describe service faster-rcnn-road-service
+kubectl describe service faster-rcnn-traffy-service
 ````
 ![monitor service](../assets/service_description.png)
 
@@ -25,7 +25,7 @@ Simply replace the previously used ``localhost`` in the url with the `IP` addres
 
 ````bash
 # From Traffy_Demo/
-python client.py --server_url "http://localhost:8501/v1/models/faster_rcnn_road:predict" \
+python client.py --server_url "http://localhost:8501/v1/models/faster_rcnn_traffy:predict" \
 --image_path "$(pwd)/Test/road/pit29.jpg" \
 --output_json "$(pwd)/Test_Result/pit29.json" \
 --save_output_image "True" \
