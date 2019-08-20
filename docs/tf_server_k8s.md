@@ -3,7 +3,7 @@
 Run the following command
  ````bash
 # From tensorflow-serving_sidecar/
-kubectl create -f faster_rcnn_resnet_k8s.yaml
+kubectl create -f faster_rcnn_road_k8s.yaml
 ````
 To view status of the deployment and pods use the `kubectl get deployments` for the whole deployment, `kubectl get pods`
 to monitor each replicas of your deployment and `kubectl get services` for the service.
@@ -14,7 +14,7 @@ to monitor each replicas of your deployment and `kubectl get services` for the s
 It can take a while for everything to be up and running. The service external `IP` address is listed next to LoadBalancer Ingress.
 You can check it with the ``kubectl describe service`` command:
 ````bash
-kubectl describe service faster-rcnn-resnet-service
+kubectl describe service faster-rcnn-road-service
 ````
 ![monitor service](../assets/service_description.png)
 
