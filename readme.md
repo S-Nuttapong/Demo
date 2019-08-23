@@ -2,17 +2,15 @@
 
 ### serving object detection model for public sanitation and infrastructure problems with `tensorflow-serving`
 
-## Installation
+## Required Installation
 
-The installation process is thoroughly described in the [docs/setup.md](docs/setup.md). 
-In prior to being able to run `client.py`, TensorFlow-serving client.
+Follow [docs/setup.md](docs/setup.md) to run TensorFlow-serving client.
 
-## Serving traffy_demo with tensorflow/serving image on localhost
+## Serving on localhost
 
-follow: [docs/tf_server_local.md](docs/tf_server_local.md).
+Follow: [docs/tf_server_local.md](docs/tf_server_local.md).
 
-## Serving with Kubenetes (pulled from traffy_demo container from Google Cloud's registry)
-
+## Serving with Kubenetes (hosted on GCE's registry)
 follow: [docs/tf_server_k8s.md](docs/tf_server_k8s.md).
 
 ### Credits
