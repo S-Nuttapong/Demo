@@ -1,4 +1,4 @@
-# Serving with Kubenetes (pulled from traffy_demo container from Google Cloud's registry)
+# Serving with Kubenetes (hosted on GCE's registry)
 
 Run the following command
  ````bash
@@ -25,16 +25,7 @@ Simply replace the previously used ``localhost`` in the url with the `IP` addres
 
 ````bash
 # From Traffy_Demo/
-python client.py --server_url "http://localhost:8501/v1/models/faster_rcnn_traffy:predict" \
---image_path "$(pwd)/Test/road/pit29.jpg" \
---output_json "$(pwd)/Test_Result/pit29.json" \
---save_output_image "True" \
---label_map "$(pwd)/data/faster_rcnn_road/label_map.pbtxt"
+python Client_Kube.py --save_output_image "True" 
+
 ````
-________
-### Resources 
 
-
-- More resources on Docker `bind` mount is available on [Docker bind official docs](https://docs.docker.com/storage/bind-mounts/).
-- To understand how the docker `commit` command works, refer to the [Docker commit official doc](https://docs.docker.com/engine/reference/commandline/commit/).
-- Google Container registry documentation, https://cloud.google.com/container-registry/docs/
