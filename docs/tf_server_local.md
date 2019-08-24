@@ -5,17 +5,14 @@
 follow: https://hub.docker.com/
 
 ## Get TensorFlow-serving image
-Run: `docker pull tensorflow/serving`
+Run: `docker pull bjennings3/traffy_serving:lastest`
 
 Then do the following:
 
 ### 1. Run the tensorflow server container:
 ```bash
 # From Traffy_Demo/
-docker run -t --rm -p 8501:8501 \
-   -v "$(pwd)/data/$faster_rcnn_road:/models/faster_rcnn_road" \
-   -e MODEL_NAME=faster_rcnn_road \
-   tensorflow/serving &
+docker run --rm -p 8501:8501 -t bjennings3/traffy_serving:lastest 
 ```
 
 ### 2. Run Client_Docker.py, tensorflow-serving client: 
