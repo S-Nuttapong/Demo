@@ -65,8 +65,12 @@ pip install -r requirements.txt
 ## Install Protobuf
 The Tensorflow `Object Detection` API uses Protobufs to configure model and training parameters. 
 Before the framework can be used, the Protobuf libraries must be compiled. 
- 
-Follow the instruction in **Protobuf Compilation** section of official tensorflow installation guide:  https://github.com/tensorflow/models/blob/master/research/object_detection/g3doc/installation.md 
+
+### For mac, linux
+Look for **Protobuf Compilation** in:  https://github.com/tensorflow/models/blob/master/research/object_detection/g3doc/installation.md 
+
+### For windows
+Follow: https://www.youtube.com/watch?v=COlbP62-B-U
 
 ### Protobuf Compilation
 
