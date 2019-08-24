@@ -14,7 +14,7 @@ Then do the following:
 # From Traffy_Demo/
 docker run --rm -p 8501:8501 -t bjennings3/traffy_serving:lastest 
 ```
-**Note: if docker fail to run container, try to change the port**
+**Note: if docker is fail to run container, try changing the port**
 ```bash
 # From Traffy_Demo/
 docker run --rm -p 80:8501 -t bjennings3/traffy_serving:lastest 
