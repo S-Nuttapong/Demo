@@ -7,6 +7,11 @@ Setup a working python environment
 **Note** This project runs on Python 3.6.5
 Download Python 3.6.5:  https://www.python.org/downloads/release/python-365/
 
+### For windows
+follow: https://programwithus.com/learn-to-code/Pip-and-virtualenv-on-Windows/
+
+### For mac
+
 Create a python virtual environment with venv, name it as you wish, for example ```tf_serving``` Replace the path /PATH/TO to your desired virtualenv accordingly, for example ```virpython``` .
 ```
 pip3 install virtualenv
