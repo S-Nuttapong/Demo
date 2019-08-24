@@ -33,7 +33,7 @@ source ~/virpython/tf_serving/bin/activate
 
 ### Download demo model and put inside data folder
 Model can be found here: https://drive.google.com/open?id=1BjW7LQ-2KC-74anW0u5iJu8mXEys0w7U
-put model inside data folder as shown below:
+and put model inside data folder as shown below:
 ```
 Traffy_Demo/
  |
