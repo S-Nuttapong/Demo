@@ -1,6 +1,9 @@
 # Project setup
 
+```
+curl -H "content-type: application/json"  -d '{"signature_name": "serving_default", "instances": }' -X POST http://localhost:8501/v1/models/faster_rcnn_traffy:predict
 Setup a working python environment
+```
 
 ## Create a Python virtualenv
 
